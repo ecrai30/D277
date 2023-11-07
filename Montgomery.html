@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+<html lang="=en">
+    <head>
+      <title>Montgomery</title>
+      <link rel="stylesheet"href="styles2.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script type="text/javascript">
+        function emailCheck(){
+            var email1 = document.forms["myForm"]["email"].value;
+            var email2 = document.forms["myForm"]["confirmEmail"].value;
+            if(email1 != email2){
+                // Display the error message
+                document.getElementById("emailMismatch").style.display="inline";
+                return false;
+            }
+            else{
+              // Hide the error message
+              document.getElementById("emailMismatch").style.display="none";
+            }
+        }
+        </script>
+    </head>
+ 
+    
+    <body>
+        <header>
+          <nav id="navlinks"> 
+            <a href="./index.html">Home</a>
+            <a href="./Montgomery.html">Montgomery</a>
+            <a href="./Selma.html">Selma</a>
+            <a href="./Auburn.html">Auburn</a>
+            <a href="https://www.montgomeryal.gov/" target="_blank">Learn More about Montgomery</a>
+        </nav> 
+        <br>
+        </header>
+
+        <section>
+          <div id="city"> 
+            <h2>Montgomery: The Capital City</h2>
+            <p></p>
+            <img src="./images/Capital.jpeg" alt="A pictutre of the capital in Montgomery.">
+              <h4>  </h4>
+              <p>       
+              </p>
+          </div> 
+
+          <div id="cities">
+              <p> Montgomery Facts:</p>
+                  <ol type="I">
+                    <li>Incorporated in 1819.</li>
+                    <li>Located in SouthCentral Alabama.</li>
+                    <li>Population of 191,665</li>
+                    <li>Average household income level is $49,989</li>
+                    <li>Urban</li>
+                  </ol>
+          </div>
+        </section>
+        <br>
+        <aside id="aside">
+              <p> Montgomery was the destination of the Selma March during the Civil Rights Movement during 1965.The Civil Rights Memorial is an American memorial in Montgomery, Alabama, created by Maya Lin.</p>
+              <img src="./images/CRMemorial.png" alt="Civil Rights Memorial Center." style="width:60%;height:50%">
+        </aside>
+
+      
+       
+        <form name="myForm" class="myForm" id="form">
+          <h3>Contact Us</h3>
+          <div>
+            <label for="first">First Name</label>
+            <input type="text" name="firstName" id ="firsName" placeholder="Enter First Name">
+          </div>
+          <div>
+            <label for="last">Last Name</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Enter Last Name">
+          </div>
+          <div>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email Adress">
+          </div>
+          <div>
+            <label for="emailConfirm">Confirm Email</label>
+            <input type="email" name="confirmEmail" oninput="emailCheck();"id="confirmEmail" placeholder="Re-enter Email Address";"> <span id="emailMismatch" style = "display:none;color#f00;font-weight:bold;">The email provided doesn't match</span>
+            <div class="msg"></div>
+          </div>
+          <div>
+            <label for="question">Question</label>
+            <textarea name="Question"></textarea>
+            <input type="submit" name="submit" id="submit" value="Submit">
+          </div>
+        </form>
+    </body>
+
+    <footer>
+      <br>
+        <nav id="navlinks"> 
+            <a href="./index.html">Home</a>
+            <a href="./Montgomery.html">Montgomery</a>
+            <a href="./Selma.html">Selma</a>
+            <a href="./Auburn.html">Auburn</a> 
+        </nav>  
+      </footer>
+
+ </html>

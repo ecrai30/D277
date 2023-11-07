@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+ body{
+    background-color: skyblue;
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    line-height: 1.6em;
+    margin: 20%;
+
+}
+
+img{
+    display: flex;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#city img{
+    align-items: center;
+}
+
+#cities{
+   
+    padding: 20px;
+    display: block;
+    border: 3px solid blue;
+}
+
+a:hover{
+    color:orangered;
+    text-decoration: none;
+}
+
+#intro{
+    
+    border: 3px solid blue;
+    padding: 20px;
+
+}
+
+#aside{
+    display: flex;
+    border: 3px solid blue;
+    padding: 20px;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times;
+    font-weight: normal;
+}
+
+.table{
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2mm darkblue;
+    font-size: 1.5rem;
+    padding: 20px;
+
+}
+
+table,th,td, caption{
+    flex-grow: 1;
+    border: 1px solid darkblue;
+    text-align: center;
+}
+
+
+#navlinks{
+    display: block;
+    position: absolute;
+    left: 20px;
+
+}
+
+.myForm label{
+    display: block;
+    position: relative;
+    left: auto;
+}
+
+.myForm input[type="text"], .myForm textarea , .myForm input[type="email"]{ 
+    padding: 8px;
+    width:100%;
+    position: relative;
+    left: auto;
+}

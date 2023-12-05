@@ -1,8 +1,8 @@
-# 👋 Hello developer!
+#  Hello developer!
 This project contains a basic HTML structure to get you started. Check our [tutorials for frontend development](https://www.w3schools.com/where_to_start.asp) to learn the basics of [HTML](https://www.w3schools.com/html/default.asp) and [CSS](https://www.w3schools.com/css/default.asp). 🦄 This project not only demonstrates my technical skills in frontend development but also highlights myability to enhance user engagement through interactive elements. The inclusion of a user information form with JavaScript validation showcases my commitment to creating dynamic and user-friendly web applications. These experiences contribute to my proficiency as a Front-End Developer, ensuring that the websites I develop not only look visually appealing but also provide a seamless and secure user experience.
 
 
-## 🏗 What's next?
+##  What's next?
 
 
 Use these four files as your starting point:
@@ -15,7 +15,7 @@ Use these four files as your starting point:
 > **Note:** The **styles.css** and **scripts.js** files link into the **index.html** file so that they are all connected.
 
 
-## 🎨 Where to find everything
+## Where to find everything
 
 - **Fonts:** Add your favorite from **Google fonts**.  
 	[Go to tutorial about fonts](https://www.w3schools.com/w3css/w3css_fonts_google.asp)

@@ -1,10 +1,9 @@
 # 👋 Hello developer!
-This project contains a basic HTML structure to get you started. Check our [tutorials for frontend development](https://www.w3schools.com/where_to_start.asp) to learn the basics of [HTML](https://www.w3schools.com/html/default.asp) and [CSS](https://www.w3schools.com/css/default.asp). 🦄
+This project contains a basic HTML structure to get you started. Check our [tutorials for frontend development](https://www.w3schools.com/where_to_start.asp) to learn the basics of [HTML](https://www.w3schools.com/html/default.asp) and [CSS](https://www.w3schools.com/css/default.asp). 🦄 This project not only demonstrates my technical skills in frontend development but also highlights myability to enhance user engagement through interactive elements. The inclusion of a user information form with JavaScript validation showcases my commitment to creating dynamic and user-friendly web applications. These experiences contribute to my proficiency as a Front-End Developer, ensuring that the websites I develop not only look visually appealing but also provide a seamless and secure user experience.
 
 
 ## 🏗 What's next?
 
-Build your project however you like using HTML, CSS and JavaScript. 
 
 Use these four files as your starting point:
 
@@ -30,12 +29,3 @@ Use these four files as your starting point:
 > ⚡️ **Tip:** [Set up Google Analytics](https://www.w3schools.com/howto/howto_google_analytics.asp) to get valuable insights about your space and visitors. 
 	
 
-### ⛑ Need support?
-[Join our Discord community](https://discord.gg/6Z7UaRbUQM) and ask questions in the **#spaces-general** channel.
-
-
-### 🚀 Upgrade to Pro
-[Upgrade your account](https://billing.w3schools.com/products/spaces) to boost your space and take your projects to the next level; more requests, more storage and more power for up to 10 spaces.
-
-
-Happy learning!
